@@ -39,7 +39,7 @@ body {
 /* ================= PAGE 1 ================= */
 
 .page1 {
-    background-image: url("./images/flowers.png");
+    background-image: url("./Images/flowers.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
