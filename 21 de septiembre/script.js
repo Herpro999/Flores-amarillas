@@ -32,11 +32,13 @@ function nextPage() {
 
     setTimeout(() => {
         page1.style.display = "none";
+
         page2.style.display = "flex";
         page2.style.opacity = "0";
 
         setTimeout(() => {
             page2.style.opacity = "1";
         }, 50);
+
     }, 700);
 }
