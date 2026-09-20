@@ -20,8 +20,14 @@ const friendID = params.get("friend");
 const friendName = friends[friendID];
 
 if (friendName) {
-    document.getElementById("friendMessage").textContent =
-        `${friendName}, nunca cambies ❤️`;
+    let message = `${friendName}, nunca cambies ❤️`;
+
+    // Special version only for Isa (friend=14)
+    if (friendID === "14") {
+        message = "Isa, nunca cambies... I'll eat you ❤️";
+    }
+
+    document.getElementById("friendMessage").textContent = message;
 }
 
 function nextPage() {
