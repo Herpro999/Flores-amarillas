@@ -6,7 +6,7 @@ const friends = {
     "05": "Dulce",
     "06": "Villa",
     "07": "Suarez",
-    "08": "Ramirez",
+    "08": "Mrs.Franco",
     "09": "Juliana",
     "10": "Sara",
     "11": "Bonfante",
