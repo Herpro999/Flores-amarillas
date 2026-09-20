@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+/* GENERAL PAGE */
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    transition: opacity 0.6s ease;
+}
+
+/* PAGE 1 */
+
+.page1 {
+background-image: url("images/flowers.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.overlay {
+text-align: center;
+
+
+background: rgba(255, 255, 255, 0.15);
+
+padding: 40px;
+
+border-radius: 25px;
+
+backdrop-filter: blur(3px);
+
+}
+
+.page1 h1 {
+color: white;
+
+
+font-size: clamp(2rem, 5vw, 4rem);
+
+text-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.5);
+
+margin-bottom: 35px;
+
+
+}
+
+/* BUTTON */
+
+button {
+border: none;
+
+
+padding: 15px 40px;
+
+border-radius: 30px;
+
+background: white;
+
+color: #d4a900;
+
+font-size: 1.1rem;
+font-weight: bold;
+
+cursor: pointer;
+
+transition: transform 0.2s ease,
+            background 0.2s ease;
+
+
+}
+
+button:hover {
+transform: scale(1.08);
+
+
+background: #fff4a3;
+
+
+}
+
+/* PAGE 2 */
+
+.page2 {
+background: #FEC20C;
+
+
+display: none;
+
+
+}
+
+.content {
+text-align: center;
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+gap: 30px;
+
+padding: 30px;
+
+
+}
+
+.content img {
+width: min(80vw, 500px);
+max-height: 65vh;
+
+
+object-fit: contain;
+
+border-radius: 15px;
+
+box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#friendMessage {
+color: white;
+
+
+font-size: clamp(2rem, 5vw, 4rem);
+
+text-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.25);
+
+
+}
